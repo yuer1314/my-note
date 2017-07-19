@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "gitbook serve ./content ./gh-pages"
+    "start": "gitbook serve ./content ./gh-pages",
+     "deploy": "node ./scripts/deploy-gh-pages.js"
   },
   "repository": {
     "type": "git",
@@ -17,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/yuer1314/my-note/issues"
   },
-  "homepage": "https://github.com/yuer1314/my-note#readme"
+  "homepage": "https://github.com/yuer1314/my-note#readme",
+  "dependencies": {
+    "gh-pages": "^1.0.0"
+  }
 }

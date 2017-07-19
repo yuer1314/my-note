@@ -1,6 +1,6 @@
 # Summary
 
 * [Introduction](README.md)
-* [personal intruction](person.md)
-  * [where from](where.md)
+* [personal intruction](./redux/person.md)
+  * [where from](./redux/where.md)
 
